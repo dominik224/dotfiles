@@ -12,5 +12,5 @@ echo 'require("dominik.packer")' > ~/.config/nvim/lua/dominik/init.lua
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 
 echo "Restoring nvim configuration"
-cp -r nvim ~/.config/nvim
+cp ./nvim/lua/dominik/init.lua ~/.config/nvim/lua/dominik/init.lua
 

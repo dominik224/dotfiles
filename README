@@ -1,0 +1,5 @@
+# DOTFILES
+## WIP
+
+Build container using `./scripts/build.sh`. It should have my basic development environment loaded.
+

@@ -1,0 +1,7 @@
+services:
+  workspace:
+    image: cleardebian:latest
+    working_dir: /home/docker
+    tty: true
+    volumes:
+      - ~/Dominik:/home/docker/workspace

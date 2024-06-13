@@ -38,6 +38,7 @@ COPY bootstrap.sh /home/docker/setup/.
 COPY tmux /home/docker/setup/tmux/
 COPY nvim /home/docker/setup/nvim/
 RUN /bin/sh ~/setup/bootstrap.sh
+RUN rm -rf /home/docker/setup
 
 # ENV VARS
 RUN echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bashrc
